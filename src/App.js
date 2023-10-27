@@ -38,7 +38,7 @@ export default function App() {
   return (
     <div className="App">
         <div className="input-bar-container">
-            <input className='input-bar' onChange={handleChange} onKeyPress={addTask}/>
+            <input className='input-bar' onChange={handleChange}/>
             <button className='submit' onClick={addTask}>Add Task</button>
         </div>
 
